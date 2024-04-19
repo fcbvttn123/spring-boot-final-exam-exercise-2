@@ -1,0 +1,7 @@
+<ul class="list-group">
+	@for (student of posts; track student.id) {
+		<li class="list-group-item">
+		{{ student.author }} {{ student.content }}
+		</li>
+	}
+</ul>
